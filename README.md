@@ -6,10 +6,11 @@ Wordle solution grabber
 you can do one of two things
 
 # method one
-paste `js
+paste `
 let x = JSON.parse(window.localStorage.getItem("gameState"))
 document.querySelector("body > game-app").shadowRoot.querySelector("#game > header > div.title").innerHTML = "Solution:"+x.solution
 `
 into your browser's console
 
 # method two
+
