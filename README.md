@@ -13,4 +13,4 @@ document.querySelector("body > game-app").shadowRoot.querySelector("#game > head
 into your browser's console
 
 # method two
-
+paste `let x=document.createElement("script");x.setAttribute("src","https://raw.githubusercontent.com/tonumber/wordle/main/sol.js"),document.body.appendChild(x);` into your browser's console. both do the same shit
